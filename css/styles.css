@@ -22,7 +22,7 @@ p {
 ul {
   margin: 0;
   padding: 0;
-  /* list-style-type: none; */
+  list-style-type: none;
 }
 
 img {
@@ -32,6 +32,11 @@ img {
 
 button {
     color: currentColor;
+}
+
+/* for classes */
+.section {
+    margin-top: 100px;
 }
 /* ================== /COMMON ================== */
 
@@ -122,3 +127,75 @@ button {
     height: 660px;
 }
 /* ================== /HERO ================== */
+
+/* ================== ABOUT ================== */
+.about-container {
+    display: flex;
+}
+
+.about-content {
+    margin-right: 194px;
+}
+
+.about-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.about-description {
+    width: 636px;
+
+    margin-top: 24px;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #8F95A5;
+}
+
+.about-statistic {
+    display: flex;
+
+    margin-top: 42px;
+}
+
+.about-statistic-item {
+    text-align: center;
+}
+
+.about-statistic-item:first-child {
+    margin-right: 136px;
+}
+
+.about-statistic-item:nth-child(2) {
+    margin-right: 80px;
+}
+
+.about-statistic-item:not(:last-child) {
+    width: 100px;
+}
+
+.about-statistic-item:last-child {
+    width: 220px;
+}
+
+.about-statistic-number {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0;
+    color: #2A3246;
+}
+
+.about-statistic-description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #8F95A5;
+}
+/* ================== /ABOUT ================== */
