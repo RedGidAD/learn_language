@@ -138,8 +138,8 @@ a {
     width: 160px;
     height: 50px;
 
-    border-radius: 5px 0px 0px 0px;
-    border: 2px 0px 0px 0px;
+    border-radius: 5px;
+    border: 2px solid #263238;
 
     background-color: #FFFFFF;
 
@@ -551,6 +551,203 @@ a {
 /* /Desktop */
 /* ================== /HERO ================== */
 
+/* ================== SKILLS ================== */
+    .skills-container{
+        margin-top: 110px;
+    }
+    .skills-title {
+        display: flex;
+        justify-content: center;
+  
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 80px;
+
+        margin-bottom: 100px;
+    }
+
+    .skills-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        width: 1382px;
+    }
+
+    .skills-button {
+        background-color: #263238;
+        color: #FFFFFF;
+        border: none;
+
+        width: 230px;
+        height: 60px;
+        border-radius: 5px;
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+
+    .skills-box-one {
+        width: 434px;
+        height: 900px;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+
+    .img-skills-box-one {
+        margin-left: 23px;
+        margin-top: 35px;
+    }
+    
+    .skills-title-box-one {
+        margin-left: 43px;
+        margin-top: 35px;
+
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .skills-content-box-one {
+        margin-left: 43px;
+        margin-top: 35px;
+        margin-right: 45px;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #8F95A5;
+    }
+
+    .skills-button-box-one {
+        margin-left: 43px;
+        margin-top: 35px;
+    }
+
+    .boxes-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        width: 908px;
+    }
+
+    .skills-box-two {
+        width: 434px;
+        height: 531px;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+
+    .img-skills-box-two {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skills-title-box-two {
+        margin-left: 43px;
+        margin-top: 15px;
+
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .skills-content-box-two {
+        margin-left: 43px;
+        margin-top: 15px;
+        margin-right: 45px;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #8F95A5;
+    }
+
+    .skills-button-box-two {
+        margin-left: 43px;
+        margin-top: 15px;
+    }
+
+    .skills-box-three {
+        width: 434px;
+        height: 532px;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+
+    .img-skills-box-three {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skills-title-box-three {
+        margin-left: 40px;
+        margin-top: 40px;
+
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .skills-content-box-three {
+        margin-left: 40px;
+        margin-top: 15px;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #8F95A5;      
+    }
+
+    .skills-button-box-three {
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+
+    .skills-box-four {
+        width: 892px;
+        height: 344px;
+        border-radius: 10px;
+        background-color: #F5F5F5;
+        /* margin-top: 20px; */
+    }
+
+    .img-skills-box-four {
+        margin-right: 25px;
+        margin-top: 44px;
+
+        width: 382px;
+        height: 255px;
+    }
+
+    .skills-box-four-plus {
+        display: flex;
+    }
+    
+    .skills-title-box-four {
+        margin-left: 48px;
+        margin-top: 50px;
+
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .skills-content-box-four {
+        margin-left: 48px;
+        margin-top: 35px;
+        margin-right: 45px;
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #8F95A5;
+        width: 400px;
+    }
+
+    .skills-button-box-four {
+        margin-left: 43px;
+        margin-top: 35px;
+    }
+/* ================== /SKILLS ================== */
+
 /* ================== ABOUT ================== */
 .about-container {
     display: flex;
@@ -622,6 +819,89 @@ a {
     color: #8F95A5;
 }
 /* ================== /ABOUT ================== */
+
+/* ================== PRICING ================== */
+    .section-pricing {
+        margin-top: 188px;
+    }
+
+    .pricing-titel {
+        display: flex;
+        justify-content: center;
+
+        font-size: 48px;
+        font-weight: 600;
+
+        margin-bottom: 83px;
+    }
+
+    .pricing-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pricing-box {
+        width: 410px;
+    }
+
+    .pricing-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pricing-img-two {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 28px;
+    }
+
+    .pricing-titel-box {
+        margin-left: 20px;
+        margin-top: 40px;
+
+        font-size: 30px;
+        font-weight: 600;
+        color: #263238;
+    }
+
+    .pricing-content {
+
+        font-size: 20px;
+        font-weight: 400;
+        color: #8F95A5;
+
+        margin-left: 20px;
+        margin-top: 40px;
+
+        height: 80px;
+    }
+
+    .pricing-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 240px;
+        height: 45px;
+        border-radius: 5px;
+        background-color: #EEEEEE;
+        border: none;
+
+        font-size: 18px;
+        font-weight: 400;
+        color: #546269;
+
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .pricing-button-plus {
+        font-size: 30px;
+        font-weight: 400;
+        color: #263238;
+        margin-right: 8px;
+    }
+/* ================== /PRICING ================== */
 
 /* ================== CONTACT US ================== */
 /* Min mobile */
@@ -1011,3 +1291,36 @@ a {
 }
 /* /Desktop */
 /* ================== /CONTACT US ================== */
+
+/* ================== FOOTER ================== */
+    .footer-container {
+        width: 1350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 130px;
+        padding-bottom: 64px;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        border-top: 1px solid #C4C4C4;
+    }
+
+    .footer-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-list-item {
+        margin-right: 6px;
+        
+        font-size: 24px;
+        font-weight: 400;
+        color: #8F95A5;
+    }
+
+    .footer-list-item:last-child {
+        margin-right: 0;
+    }
+/* ================== /FOOTER ================== */
